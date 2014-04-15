@@ -7,7 +7,8 @@ In this we have the trait Applicative<M> and trait Monad<M> extends Applicative<
 
 The output using Gradle 1.11, Windows 7 and Groovy 2.3.0-beta-2 is:
 
-D:\repositories\bug-trait-generic-inheritance>gradle --daemon
+```
+>gradle --daemon
 :compileJava UP-TO-DATE
 :compileGroovy
 startup failed:
@@ -34,5 +35,4 @@ BUILD FAILED
 
 Total time: 5.002 secs
 
-D:\repositories\bug-trait-generic-inheritance>gradle --daemon
-
+```
