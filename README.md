@@ -1,0 +1,2 @@
+bug-trait-generic-inheritance
+=============================
